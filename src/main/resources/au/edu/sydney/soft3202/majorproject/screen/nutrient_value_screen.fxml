@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<GridPane fx:id="nutrientValueScreen" alignment="CENTER" hgap="10.0" maxWidth="300.0" minWidth="200.0" prefWidth="250.0"
+          style="-fx-border-style: solid;" vgap="10.0" xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="au.edu.sydney.soft3202.majorproject.controller.NutrientValueScreenController">
+    <Label fx:id="nutrientLabelText" alignment="CENTER" contentDisplay="CENTER" text="Nutrient Label" textAlignment="CENTER" wrapText="true"
+           GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER"
+           GridPane.vgrow="ALWAYS">
+        <font>
+            <Font name="System Bold" size="15.0"/>
+        </font>
+    </Label>
+    <Label text="Measurement Unit:" wrapText="true" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS"/>
+    <Label text="Quantity:" wrapText="true" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS"/>
+    <Label fx:id="nutrientMeasureText" text="Measurement Value" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1"
+           GridPane.vgrow="ALWAYS"/>
+    <Label fx:id="nutrientQuantityText" text="Quantity Value" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="2"
+           GridPane.vgrow="ALWAYS"/>
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+    </padding>
+</GridPane>

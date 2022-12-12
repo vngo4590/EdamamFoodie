@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="nutrientStackedBarTabsScreen" alignment="CENTER" maxHeight="400.0" maxWidth="400.0" minHeight="300.0"
+      minWidth="300.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="au.edu.sydney.soft3202.majorproject.controller.NutrientStackedBarTabsScreenController">
+    <TabPane fx:id="nutrientStackedBarTabsContainer" side="BOTTOM" tabClosingPolicy="UNAVAILABLE" VBox.vgrow="ALWAYS">
+
+    </TabPane>
+</VBox>

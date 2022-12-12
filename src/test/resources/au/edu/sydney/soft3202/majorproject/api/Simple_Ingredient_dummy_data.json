@@ -1,0 +1,285 @@
+{
+  "text": "strawberry icecream",
+  "parsed": [
+    {
+      "food": {
+        "foodId": "food_parsed_1",
+        "label": "Sample Food",
+        "nutrients": {
+          "ENERC_KCAL": 32.0,
+          "PROCNT": 0.67,
+          "FAT": 0.3,
+          "CHOCDF": 7.68,
+          "FIBTG": 2.0
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "https://www.edamam.com/food-img/00c/00c8851e401bf7975be7f73499b4b573.jpg"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "food": {
+        "foodId": "food_id_1",
+        "label": "Sample Food",
+        "nutrients": {
+          "ENERC_KCAL": 32.0,
+          "PROCNT": 0.67,
+          "FAT": 0.3,
+          "CHOCDF": 7.68,
+          "FIBTG": 2.0
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "https://www.edamam.com/food-img/00c/00c8851e401bf7975be7f73499b4b573.jpg"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+          "label": "Cup",
+          "weight": 152.0,
+          "qualified": [
+            {
+              "qualifiers": [
+                {
+                  "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_pureed",
+                  "label": "pureed"
+                }
+              ],
+              "weight": 232.0
+            },
+            {
+              "qualifiers": [
+                {
+                  "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_sliced",
+                  "label": "sliced"
+                }
+              ],
+              "weight": 166.0
+            },
+            {
+              "qualifiers": [
+                {
+                  "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_whole",
+                  "label": "whole"
+                }
+              ],
+              "weight": 144.0
+            }
+          ]
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pint",
+          "label": "Pint",
+          "weight": 357.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_id_2",
+        "label": "Ice cream Company Sample Food Ice cream",
+        "nutrients": {
+          "ENERC_KCAL": 205.8823529411765,
+          "PROCNT": 2.9411764705882355,
+          "FAT": 10.294117647058824,
+          "CHOCDF": 25.0,
+          "FIBTG": 0.0
+        },
+        "brand": "Ice cream Company",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "INGREDIENTS: SKIM MILK; CREAM; CORN SYRUP; HIGH FRUCTOSE CORN SYRUP; SUGAR; STRAWBERRY PUREE(CORN SYRUP; STRAWBERRIES; WATER; SUGAR; MODIFIED CORNSTARCH; NATURAL FLAVOR; CITRIC ACID; RED 40); WHEY; CONTAINS 2% OR LESS OF MONO AND DIGLYCERIDES; GUAR GUM AND/OR CELLULOSE GUM; CALCIUM SULFATE; LOCUST BEAN GUM; CARRAGEENAN; NATURAL & ARTIFICIAL FLAVOR STRAWBERRY FLAVOR; RED 40",
+        "image": "https://www.edamam.com/food-img/843/843e5015b3419d0c49fd6e0283f3d5ef.png",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+            "label": "Cup",
+            "quantity": 0.5
+          },
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+            "label": "Gram",
+            "quantity": 68.0
+          }
+        ],
+        "servingsPerContainer": 3.0
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 68.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+          "label": "Package",
+          "weight": 204.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+          "label": "Cup",
+          "weight": 136.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_fluid_ounce",
+          "label": "Fluid ounce",
+          "weight": 14.571428571428573
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "Food_id_3",
+        "label": "Mango Icecream",
+        "nutrients": {
+          "ENERC_KCAL": 173.220851156012,
+          "PROCNT": 2.4569626501091113,
+          "FAT": 9.471271969455152,
+          "CHOCDF": 21.127205872484854,
+          "FIBTG": 1.1244183071274687
+        },
+        "category": "Generic meals",
+        "categoryLabel": "meal",
+        "foodContentsLabel": "mango; Milk; Whipping cream; Condensed milk; Icing sugar"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "weight": 225.20650446501963
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 225.20650446501963
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_milliliter",
+          "label": "Milliliter",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_id_4",
+        "label": "Custard Powder Icecream",
+        "nutrients": {
+          "ENERC_KCAL": 133.58382009370447,
+          "PROCNT": 5.410034398608345,
+          "FAT": 6.440647868958788,
+          "CHOCDF": 15.235943270302336,
+          "FIBTG": 2.510166585123118
+        },
+        "category": "Generic meals",
+        "categoryLabel": "meal",
+        "foodContentsLabel": "Cauliflower; Cumin; Clove; Cinnamon; Cardamom; Onion; Ginger; Turmeric; Coriander; chilli powder; chilli; Yoghurt; Salt; masala; Tomatoes; oil; coriander leaves"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "weight": 362.0646650685014
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 362.0646650685014
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_milliliter",
+          "label": "Milliliter",
+          "weight": 1.0
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "next": {
+      "title": "Next page",
+      "href": "[next page mock URL]"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<?import javafx.scene.control.Button?>
+<VBox alignment="CENTER"
+      fx:id="chosenIngredientScreen"
+      maxHeight="500.0"
+      maxWidth="400.0"
+      minWidth="300.0"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="au.edu.sydney.soft3202.majorproject.controller.ChosenIngredientsController">
+    <Label alignment="CENTER" contentDisplay="CENTER" text="Chosen Ingredients" textAlignment="CENTER" wrapText="true">
+        <font>
+            <Font name="System Bold" size="30.0"/>
+        </font>
+        <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+        </VBox.margin>
+    </Label>
+    <ScrollPane maxHeight="400.0" minHeight="300.0" vbarPolicy="ALWAYS" VBox.vgrow="ALWAYS">
+        <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+        </VBox.margin>
+        <VBox fx:id="chosenIngredientsContainer"/>
+    </ScrollPane>
+    <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="30.0"
+            maxWidth="100.0" mnemonicParsing="false"
+            text="Reset" wrapText="true"
+            onAction="#onResetIngredient">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Button>
+</VBox>

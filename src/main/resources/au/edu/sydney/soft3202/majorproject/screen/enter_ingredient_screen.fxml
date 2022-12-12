@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox fx:id="enterIngrScreen" alignment="CENTER" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="au.edu.sydney.soft3202.majorproject.controller.EnterIngredientScreenController">
+    <GridPane alignment="CENTER" VBox.vgrow="ALWAYS">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="580.0" minWidth="10.0" prefWidth="210.0"/>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="450.0" minWidth="10.0" prefWidth="440.0"/>
+        </columnConstraints>
+        <!--        <rowConstraints>-->
+        <!--            <RowConstraints vgrow="ALWAYS"/>-->
+        <!--            <RowConstraints vgrow="ALWAYS"/>-->
+        <!--            <RowConstraints maxHeight="70" minHeight="40" prefHeight="70" vgrow="ALWAYS"/>-->
+        <!--            <RowConstraints maxHeight="80" minHeight="40" prefHeight="70" vgrow="ALWAYS"/>-->
+        <!--            <RowConstraints maxHeight="70" minHeight="40" prefHeight="70" vgrow="ALWAYS"/>-->
+        <!--            <RowConstraints vgrow="ALWAYS"/>-->
+        <!--            <RowConstraints vgrow="ALWAYS"/>-->
+        <!--        </rowConstraints>-->
+        <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+        </VBox.margin>
+        <Label alignment="CENTER" contentDisplay="CENTER" text="Please Enter Your Ingredients" textAlignment="CENTER"
+               wrapText="true" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS">
+            <font>
+                <Font name="System Bold" size="24.0"/>
+            </font>
+            <GridPane.margin>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+            </GridPane.margin>
+        </Label>
+        <Label text="Your Ingredient:" wrapText="true" GridPane.halignment="CENTER" GridPane.rowIndex="1"
+               GridPane.valignment="CENTER">
+            <font>
+                <Font size="15.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="ingrTextField" maxHeight="40.0" maxWidth="300.0" promptText="eg: eggs"
+                   GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1"
+                   GridPane.valignment="CENTER">
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+            </padding>
+        </TextField>
+        <HBox alignment="CENTER" spacing="10.0" GridPane.columnSpan="2" GridPane.halignment="CENTER"
+              GridPane.rowIndex="2" GridPane.valignment="CENTER">
+            <Button fx:id="ingrAddButton" alignment="CENTER" contentDisplay="CENTER" maxHeight="30.0" maxWidth="100.0"
+                    mnemonicParsing="false" onAction="#onAddIngr" text="Add" wrapText="true" HBox.hgrow="ALWAYS">
+                <font>
+                    <Font size="15.0"/>
+                </font>
+            </Button>
+            <Button fx:id="ingrResetButton" alignment="CENTER" contentDisplay="CENTER" maxHeight="30.0" maxWidth="100.0"
+                    mnemonicParsing="false" onAction="#onResetIngredients" text="Reset" wrapText="true"
+                    HBox.hgrow="ALWAYS">
+                <font>
+                    <Font size="15.0"/>
+                </font>
+            </Button>
+        </HBox>
+        <ScrollPane fx:id="scrollIngrList" maxHeight="200.0" minHeight="100.0" GridPane.columnSpan="2"
+                    GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3"
+                    GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+            <GridPane.margin>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+            </GridPane.margin>
+            <VBox fx:id="ingrContainer" spacing="10.0">
+                <Label alignment="CENTER" contentDisplay="CENTER" text="Your Ingredients" textAlignment="CENTER"
+                       wrapText="true">
+                    <font>
+                        <Font name="System Bold" size="24.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets/>
+                    </VBox.margin>
+                </Label>
+                <!--
+                The ingredients will be written here for user confirmation
+                -->
+                <Text fx:id="ingredientListText" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text="You have not added any Ingredients yet!" wrappingWidth="500">
+                </Text>
+                <padding>
+                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                </padding>
+            </VBox>
+        </ScrollPane>
+        <Button fx:id="ingrSubmitButton" alignment="CENTER" contentDisplay="CENTER" defaultButton="true"
+                maxHeight="30.0" maxWidth="100.0" mnemonicParsing="false" onAction="#onSubmit" text="Submit"
+                wrapText="true" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+            <font>
+                <Font size="15.0"/>
+            </font>
+        </Button>
+        <rowConstraints>
+            <RowConstraints/>
+            <RowConstraints/>
+            <RowConstraints maxHeight="50.0" vgrow="ALWAYS"/>
+            <RowConstraints maxHeight="100.0" vgrow="ALWAYS"/>
+            <RowConstraints/>
+        </rowConstraints>
+    </GridPane>
+</VBox>

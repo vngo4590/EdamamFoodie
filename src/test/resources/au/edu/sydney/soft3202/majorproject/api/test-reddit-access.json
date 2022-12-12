@@ -1,0 +1,6 @@
+{
+  "access_token": "This is a sample token",
+  "token_type": "bearer",
+  "expires_in": 86400,
+  "scope": "*"
+}

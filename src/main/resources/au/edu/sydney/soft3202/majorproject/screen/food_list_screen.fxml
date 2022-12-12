@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox fx:id="foodListScreen" alignment="CENTER" maxHeight="640" maxWidth="600.0" minHeight="600.0" minWidth="600"
+      spacing="10.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="au.edu.sydney.soft3202.majorproject.controller.FoodListScreenController">
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+    </padding>
+    <Label alignment="CENTER" contentDisplay="CENTER" text="Food Details" textAlignment="CENTER">
+        <font>
+            <Font name="System Bold" size="30.0"/>
+        </font>
+        <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+        </VBox.margin>
+    </Label>
+    <TabPane fx:id="foodDetailsTabPane" maxHeight="600.0" maxWidth="600" VBox.vgrow="ALWAYS">
+        <VBox.margin>
+            <Insets bottom="10.0" left="20.0" right="20.0"/>
+        </VBox.margin>
+    </TabPane>
+    <GridPane alignment="CENTER" maxHeight="100.0" VBox.vgrow="ALWAYS">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="580.0" minWidth="10.0" prefWidth="200.0"/>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="450.0" minWidth="10.0"/>
+        </columnConstraints>
+        <MenuButton fx:id="nutrientMenuButton" mnemonicParsing="false" text="Pick a Nutrient" textAlignment="CENTER"
+                    wrapText="true" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0"
+                    GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+            <items>
+                <MenuItem mnemonicParsing="false" text="Action 1"/>
+                <MenuItem mnemonicParsing="false" text="Action 2"/>
+            </items>
+            <font>
+                <Font size="15.0"/>
+            </font>
+        </MenuButton>
+        <HBox alignment="CENTER" spacing="20.0" GridPane.columnIndex="1" GridPane.halignment="CENTER"
+              GridPane.hgrow="ALWAYS" GridPane.rowIndex="0" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+            </padding>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Min:" textAlignment="CENTER" wrapText="true"
+                   HBox.hgrow="ALWAYS"/>
+            <TextField fx:id="nutrientTextFieldMin" alignment="CENTER" maxHeight="40.0" maxWidth="100.0"
+                       promptText="eg: 100" HBox.hgrow="ALWAYS">
+                <padding>
+                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                </padding>
+            </TextField>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Max:" textAlignment="CENTER" wrapText="true"
+                   HBox.hgrow="ALWAYS"/>
+            <TextField fx:id="nutrientTextFieldMax" alignment="CENTER" maxHeight="40.0" maxWidth="100.0"
+                       promptText="eg: 100" HBox.hgrow="ALWAYS">
+                <padding>
+                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                </padding>
+            </TextField>
+        </HBox>
+        <HBox alignment="CENTER" spacing="10.0" GridPane.columnSpan="2" GridPane.halignment="CENTER"
+              GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+            </padding>
+            <Button fx:id="nutrientAddButton" alignment="CENTER" contentDisplay="CENTER" maxHeight="20.0"
+                    maxWidth="100.0" mnemonicParsing="false" onAction="#onAddNutrient" text="Add" wrapText="true"
+                    HBox.hgrow="ALWAYS">
+                <font>
+                    <Font size="12.0"/>
+                </font>
+            </Button>
+            <Button fx:id="nutrientResetButton" alignment="CENTER" contentDisplay="CENTER" maxHeight="20.0"
+                    maxWidth="100.0" mnemonicParsing="false" onAction="#onResetNutrient" text="Reset" wrapText="true"
+                    HBox.hgrow="ALWAYS">
+                <font>
+                    <Font size="12.0"/>
+                </font>
+            </Button>
+        </HBox>
+        <ScrollPane fx:id="scrollNutrientList" maxHeight="100.0" maxWidth="400" minHeight="100.0"
+                    GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2"
+                    GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+            <VBox fx:id="nutrientContainer" spacing="10.0">
+                <Label alignment="CENTER" contentDisplay="CENTER" text="Your Nutrients" textAlignment="CENTER"
+                       wrapText="true">
+                    <font>
+                        <Font name="System Bold" size="24.0"/>
+                    </font>
+                </Label>
+                <Text fx:id="nutrientListText" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text="You have not added any Nutrients yet!" wrappingWidth="350">
+                </Text>
+                <padding>
+                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                </padding>
+            </VBox>
+        </ScrollPane>
+        <rowConstraints>
+            <RowConstraints/>
+            <RowConstraints/>
+            <RowConstraints/>
+        </rowConstraints>
+    </GridPane>
+
+    <HBox alignment="CENTER" spacing="10">
+        <Button fx:id="foodListSubmitButton" defaultButton="true" maxWidth="150.0" mnemonicParsing="false"
+                onAction="#onSubmit" text="Submit" textAlignment="CENTER" wrapText="true" HBox.hgrow="ALWAYS">
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+            </padding>
+        </Button>
+        <Button fx:id="foodNextPageButton" maxWidth="150.0" mnemonicParsing="false" onAction="#onLoadNextPage"
+                text="Load Next Page" textAlignment="CENTER" wrapText="true" HBox.hgrow="ALWAYS">
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+            </padding>
+        </Button>
+    </HBox>
+</VBox>

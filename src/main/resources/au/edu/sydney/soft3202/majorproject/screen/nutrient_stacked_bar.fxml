@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.StackedBarChart?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox fx:id="nutrientStackedBarContainer" alignment="CENTER" focusTraversable="true" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+        fx:controller="au.edu.sydney.soft3202.majorproject.controller.NutrientStackedBarController">
+    <padding>
+        <Insets bottom="20.0" left="10.0" right="10.0" top="10.0"/>
+    </padding>
+    <StackedBarChart fx:id="nutrientStackedBar" categoryGap="20.0" title="Nutrient Value" VBox.vgrow="ALWAYS">
+        <xAxis>
+            <CategoryAxis label="Nutrient" side="BOTTOM"/>
+        </xAxis>
+        <yAxis>
+            <NumberAxis label="Nutrient Measurements in %" side="LEFT">
+                <tickLabelFont>
+                    <Font size="10.0"/>
+                </tickLabelFont>
+            </NumberAxis>
+        </yAxis>
+        <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+        </padding>
+    </StackedBarChart>
+</VBox>

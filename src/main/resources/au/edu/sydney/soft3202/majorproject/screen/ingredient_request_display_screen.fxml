@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="CENTER"
+          fx:id="ingredientRequestDisplayScreen"
+          maxWidth="300.0" minWidth="200.0"
+          xmlns:fx="http://javafx.com/fxml"
+          xmlns="http://javafx.com/javafx"
+          style="-fx-border-width: 1; -fx-border-style: solid;"
+          fx:controller="au.edu.sydney.soft3202.majorproject.controller.IngredientRequestDisplayController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="ALWAYS" minWidth="100.0" prefWidth="150.0" maxWidth="200"/>
+        <ColumnConstraints hgrow="ALWAYS" minWidth="100.0" prefWidth="150.0" maxWidth="200"/>
+    </columnConstraints>
+    <Label alignment="CENTER" contentDisplay="CENTER" text="Ingredient Label" textAlignment="CENTER" wrapText="true"
+           GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER"
+           GridPane.vgrow="ALWAYS"
+           fx:id="foodLabel">
+        <font>
+            <Font name="System Bold" size="15.0"/>
+        </font>
+    </Label>
+    <VBox GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1"
+          GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"
+          fx:id="foodMeasureDisplayContainer">
+        <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+        </padding>
+        <!--
+           Create grid pane like this for every record
+           -->
+        <!--<GridPane>
+               <columnConstraints>
+                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+               </columnConstraints>
+               <rowConstraints>
+                   <RowConstraints/>
+                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS"/>
+               </rowConstraints>
+               <Label text="Measure"/>
+               <Label text="Label" GridPane.rowIndex="1"/>
+           </GridPane>-->
+    </VBox>
+</GridPane>

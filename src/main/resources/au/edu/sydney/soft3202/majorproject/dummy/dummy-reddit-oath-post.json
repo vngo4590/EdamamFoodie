@@ -1,0 +1,13 @@
+
+{
+  "json": {
+    "ratelimit": 0,
+    "errors": [],
+    "data": {
+      "url": "https://www.reddit.com/",
+      "drafts_count": 0,
+      "id": "123",
+      "name": "123 Sample"
+    }
+  }
+}

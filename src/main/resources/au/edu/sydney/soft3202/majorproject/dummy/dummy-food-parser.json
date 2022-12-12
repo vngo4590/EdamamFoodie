@@ -1,0 +1,1191 @@
+{
+  "text": "Chocolate cake",
+  "parsed": [
+    {
+      "food": {
+        "foodId": "food_a9e38v0aj9i0lfbiq0gegbmbvq70",
+        "label": "Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 371.0,
+          "PROCNT": 5.3,
+          "FAT": 15.1,
+          "CHOCDF": 53.4,
+          "FIBTG": 1.6
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "Dummy"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "food": {
+        "foodId": "food_a9e38v0aj9i0lfbiq0gegbmbvq70",
+        "label": "Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 371.0,
+          "PROCNT": 5.3,
+          "FAT": 15.1,
+          "CHOCDF": 53.4,
+          "FIBTG": 1.6
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "Dummy"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "weight": 570.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cake",
+          "label": "Cake",
+          "weight": 1137.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_sheet",
+          "label": "Sheet",
+          "weight": 570.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+          "label": "Piece",
+          "weight": 95.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_slice",
+          "label": "Slice",
+          "weight": 95.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_a9e38v0aj9i0lfbiq0gegbmbvq70",
+        "label": "Chocolate Sheet Cake",
+        "nutrients": {
+          "ENERC_KCAL": 371.0,
+          "PROCNT": 5.3,
+          "FAT": 15.1,
+          "CHOCDF": 53.4,
+          "FIBTG": 1.6
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "Dummy"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "weight": 570.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cake",
+          "label": "Cake",
+          "weight": 1137.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_sheet",
+          "label": "Sheet",
+          "weight": 570.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+          "label": "Piece",
+          "weight": 95.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_slice",
+          "label": "Slice",
+          "weight": 95.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_a9e38v0aj9i0lfbiq0gegbmbvq70",
+        "label": "Chocolate Roll Cake",
+        "nutrients": {
+          "ENERC_KCAL": 371.0,
+          "PROCNT": 5.3,
+          "FAT": 15.1,
+          "CHOCDF": 53.4,
+          "FIBTG": 1.6
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "Dummy"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "weight": 570.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cake",
+          "label": "Cake",
+          "weight": 1137.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_sheet",
+          "label": "Sheet",
+          "weight": 570.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+          "label": "Piece",
+          "weight": 95.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_slice",
+          "label": "Slice",
+          "weight": 95.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bda7id3bjpc1p0a93i5cbaapwfus",
+        "label": "Chocolate Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 347.86344687655514,
+          "PROCNT": 3.8846076450466147,
+          "FAT": 17.371200857905233,
+          "CHOCDF": 48.01990739317768,
+          "FIBTG": 2.356185366606459
+        },
+        "category": "Generic meals",
+        "categoryLabel": "meal",
+        "foodContentsLabel": "flour; cocoa; butter; sugar; egg; chocolate; salt; cream; milk; vanilla extract"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "weight": 146.720581202794
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 146.720581202794
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_a976zxabdo7ktea3369esang1ca1",
+        "label": "Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 329.75979890607834,
+          "PROCNT": 4.418107336144459,
+          "FAT": 16.621529771577872,
+          "CHOCDF": 43.562580299807514,
+          "FIBTG": 2.3252287349759553
+        },
+        "category": "Generic meals",
+        "categoryLabel": "meal",
+        "foodContentsLabel": "Cream; White Chocolate; Flour; Sugar; Cocoa; Bicarbonate Of Soda; Baking Powder; Salt; Milk; Vegetable Oil; Eggs; Coffee"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "weight": 155.08721552926184
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 155.08721552926184
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_milliliter",
+          "label": "Milliliter",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_abvdrzhagcw7hqbiu72tnbmc2mfh",
+        "label": "Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 390.53315680680885,
+          "PROCNT": 3.779353130388473,
+          "FAT": 18.896765651942363,
+          "CHOCDF": 51.65115944864246,
+          "FIBTG": 1.2597843767961576
+        },
+        "brand": "Wal-Mart Stores, Inc.",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "Sugar; Enriched Flour Bleached; Water; Soybean Oil; Eggs; Cocoa Processed With Alkali; Whey; Corn Syrup; Wheat Flour; Canola Oil And/or Soybean Oil; Egg Whites; Cornstarch; Soy Flour; Potassium Sorbate Preservative; Partially Hydrogenated Vegetable Oil; Soybean And/or Cottonseed Oil; Vegetable Shortening; Partially Hydrogenated Soybean Oil; Hydrogenated Cottonseed Oil; Polyglycerol Esters Of Fatty Acids; Monoglycerides; Tbhq Preservative; Citric Acid Preservative; Food Starch Modified; Carob Powder; Mono And Diglycerides With Bht Preservative & Citric Acid Preservative; Vegetable Shortening; Partially Hydrogenated Soybean & Cottonseed Oil; Soy Lecithin; Leavening; Baking Soda; Monocalcium Phosphate; Sodium Aluminum Phosphate; Distilled Monoglycerides; Distilled Propylene Glycol; Monoesters Of Fats&fatty Acids; Soy Lecithin; Salt; Calcium Carbonate; Natural & Artificial Flavors; Xantham Gum; Wheat Gluten; Sodium Stearoyl Lactylate; Guar Gum; Sodium Aluminum Sulfate; Calcium Sulfate; Cellulose Gum; Partially Hydrogenated Cottonseed Oil And/or Partially Canola Oil; Dextrose; Agar - Agar; Locust Bean Gum; Annatto Extract Color; Sorbic Acid Preservative; Sodium Hexametaphosphate; Propylene Glycol; Chocolate Liquor; Turmeric Color; Tbhq Preservative; Citric Acid Preservative; Enzymes",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+            "label": "Gram",
+            "quantity": 79.0
+          },
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+            "label": "Ounce",
+            "quantity": 2.799999952316284
+          },
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cake",
+            "label": "Cake",
+            "quantity": 0.10000000149011612
+          },
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cake",
+            "label": "Cake",
+            "quantity": 1.0
+          }
+        ],
+        "servingsPerContainer": 9.999999999999998
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 79.3786633981894
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cake",
+          "label": "Cake",
+          "weight": 79.3786633981894
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+          "label": "Package",
+          "weight": 793.7866339818939
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bu3gvrhbghhe1tbb5zqmhbxvab9g",
+        "label": "DeAth by Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 360.1211975944932,
+          "PROCNT": 4.287206383508334,
+          "FAT": 20.409945941191474,
+          "CHOCDF": 43.61109315881613,
+          "FIBTG": 2.3638191894460627
+        },
+        "category": "Generic meals",
+        "categoryLabel": "meal",
+        "foodContentsLabel": "chocolate cake mix; eggs; oil; water; Cool Whip; sweetened condensed milk; caramel topping; candy"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "weight": 205.94270289997237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 205.94270289997237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_milliliter",
+          "label": "Milliliter",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_a6d8q06akjd3jhbp6b4y5b20dj88",
+        "label": "Chocolate Cake Surprise",
+        "nutrients": {
+          "ENERC_KCAL": 374.0227460584616,
+          "PROCNT": 5.156212701083464,
+          "FAT": 25.261971494929114,
+          "CHOCDF": 34.9670954748175,
+          "FIBTG": 1.661942829332884
+        },
+        "category": "Generic meals",
+        "categoryLabel": "meal",
+        "foodContentsLabel": "walnuts; coconut; chocolate cake mix; instant chocolate pudding mix; water; vegetable oil; eggs; cream cheese; butter; confectioners' sugar"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "weight": 140.90736983175597
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 140.90736983175597
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_milliliter",
+          "label": "Milliliter",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_abgqwg9b1mvioab34mdbzbtfe52g",
+        "label": "Extreme Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 325.42521579189616,
+          "PROCNT": 3.5879311155994302,
+          "FAT": 13.455372156191432,
+          "CHOCDF": 52.038770389993154,
+          "FIBTG": 2.8169360070837812
+        },
+        "category": "Generic meals",
+        "categoryLabel": "meal",
+        "foodContentsLabel": "chocolate cake mix; instant chocolate pudding mix; eggs; cooking oil; water; sour cream; semi-sweet chocolate; Chocolate Ganache; whipping cream"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "weight": 258.4174438112532
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 258.4174438112532
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bec84eva4kyu5xa8cjpn3a510hll",
+        "label": "Yummy Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 279.7871540606046,
+          "PROCNT": 2.8265737467319094,
+          "FAT": 10.339415217037612,
+          "CHOCDF": 46.1083439631173,
+          "FIBTG": 0.948047343052593
+        },
+        "category": "Generic meals",
+        "categoryLabel": "meal",
+        "foodContentsLabel": "chocolate cake mix; sugar-free instant chocolate pudding mix; water; egg whites; fat-free milk; almond extract; whipped topping; chocolate"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "weight": 195.71211955200508
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 195.71211955200508
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_milliliter",
+          "label": "Milliliter",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bdwv1ddaubbqykbphr01eaec3zua",
+        "label": "Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 36.0,
+          "PROCNT": 0.6000000000000001,
+          "FAT": 1.6,
+          "CHOCDF": 5.0,
+          "FIBTG": 0.0
+        },
+        "brand": "Buffets",
+        "category": "Fast foods",
+        "categoryLabel": "meal",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+            "label": "Gram",
+            "quantity": 500.0
+          }
+        ]
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_aga3nswan87qsyb4qvqx3bp13i0c",
+        "label": "Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 377.89473684210526,
+          "PROCNT": 4.2105263157894735,
+          "FAT": 16.842105263157894,
+          "CHOCDF": 52.63157894736842,
+          "FIBTG": 2.1052631578947367
+        },
+        "brand": "Captain D's",
+        "category": "Fast foods",
+        "categoryLabel": "meal",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+            "label": "Gram",
+            "quantity": 95.0
+          }
+        ]
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 95.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bj6wx7dapcghiya6iwntqbtpq05z",
+        "label": "Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 42.0,
+          "PROCNT": 0.4344827586206897,
+          "FAT": 1.8827586206896554,
+          "CHOCDF": 5.937931034482759,
+          "FIBTG": 0.2896551724137931
+        },
+        "brand": "Chuck E. Cheese's",
+        "category": "Fast foods",
+        "categoryLabel": "meal",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+            "label": "Gram",
+            "quantity": 690.4761904761905
+          }
+        ]
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_a25mvx3auytcyma3omqhlalsrnni",
+        "label": "Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 300.0,
+          "PROCNT": 3.3333333333333335,
+          "FAT": 13.333333333333334,
+          "CHOCDF": 41.66666666666667,
+          "FIBTG": 1.6666666666666667
+        },
+        "brand": "Old Country Buffet",
+        "category": "Fast foods",
+        "categoryLabel": "meal",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+            "label": "Piece",
+            "quantity": 1.0
+          },
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+            "label": "Gram",
+            "quantity": 60.0
+          }
+        ]
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+          "label": "Piece",
+          "weight": 60.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bsv37w4b5g396caz15cp2aysnr71",
+        "label": "Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 300.0,
+          "PROCNT": 5.0,
+          "FAT": 13.333333333333334,
+          "CHOCDF": 41.66666666666667,
+          "FIBTG": 0.0
+        },
+        "brand": "Ryan's Grill Buffet Bakery",
+        "category": "Fast foods",
+        "categoryLabel": "meal",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+            "label": "Piece",
+            "quantity": 1.0
+          },
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+            "label": "Gram",
+            "quantity": 60.0
+          }
+        ]
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+          "label": "Piece",
+          "weight": 60.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bzbd5pxbwqbbleakkty68b29kvjt",
+        "label": "Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 36.0,
+          "PROCNT": 0.5142857142857142,
+          "FAT": 1.3714285714285714,
+          "CHOCDF": 5.657142857142857,
+          "FIBTG": 0.17142857142857143
+        },
+        "brand": "The Hungry Hobo",
+        "category": "Fast foods",
+        "categoryLabel": "meal",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+            "label": "Gram",
+            "quantity": 1750.0
+          }
+        ]
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_ahtzvmqaa9gg5favrw2b8axcm2bl",
+        "label": "Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 36.0,
+          "PROCNT": 0.4771084337349398,
+          "FAT": 1.9951807228915663,
+          "CHOCDF": 4.033734939759036,
+          "FIBTG": 0.26024096385542167
+        },
+        "brand": "The Loop Pizza Grill",
+        "category": "Fast foods",
+        "categoryLabel": "meal",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+            "label": "Gram",
+            "quantity": 2305.5555555555557
+          }
+        ]
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_accmrejahjzepradofgyebohgkuj",
+        "label": "Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 387.6651982378854,
+          "PROCNT": 3.0837004405286343,
+          "FAT": 19.823788546255507,
+          "CHOCDF": 49.77973568281938,
+          "FIBTG": 1.7621145374449338
+        },
+        "brand": "Bob Evan's",
+        "category": "Fast foods",
+        "categoryLabel": "meal",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+            "label": "Gram",
+            "quantity": 227.0
+          }
+        ]
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 227.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_ao0eax0ab0e7wfb6hb2hqabxhmxv",
+        "label": "Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 315.7894736842105,
+          "PROCNT": 3.1578947368421053,
+          "FAT": 11.578947368421051,
+          "CHOCDF": 51.57894736842105
+        },
+        "brand": "Captain D's Seafood",
+        "category": "Fast foods",
+        "categoryLabel": "meal",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_slice",
+            "label": "Slice",
+            "quantity": 1.0
+          },
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+            "label": "Gram",
+            "quantity": 95.0
+          }
+        ]
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_slice",
+          "label": "Slice",
+          "weight": 95.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bvdpnq7btf0o5ea2pskjbayi90vq",
+        "label": "Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 352.94117647058823,
+          "PROCNT": 3.5294117647058822,
+          "FAT": 14.117647058823529,
+          "CHOCDF": 56.470588235294116,
+          "FIBTG": 1.1764705882352942
+        },
+        "brand": "Carl's Jr.",
+        "category": "Fast foods",
+        "categoryLabel": "meal",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+            "label": "Gram",
+            "quantity": 85.0
+          }
+        ]
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 85.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_aq0ducfan7rop0bi45sl5a25rk7f",
+        "label": "Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 36.0,
+          "FAT": 0.72,
+          "CHOCDF": 6.624,
+          "FIBTG": 0.144
+        },
+        "brand": "Country Cookin",
+        "category": "Fast foods",
+        "categoryLabel": "meal",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+            "label": "Gram",
+            "quantity": 1388.888888888889
+          }
+        ]
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_acd9a1gajl2htfbbrmso8abc40ud",
+        "label": "Chocolate Cake",
+        "nutrients": {
+          "ENERC_KCAL": 300.0,
+          "PROCNT": 5.0,
+          "FAT": 13.333333333333334,
+          "CHOCDF": 41.66666666666667,
+          "FIBTG": 0.0
+        },
+        "brand": "HomeTown Buffet",
+        "category": "Fast foods",
+        "categoryLabel": "meal",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+            "label": "Gram",
+            "quantity": 60.0
+          }
+        ]
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 60.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1.0
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000.0
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "next": {
+      "title": "Next page",
+      "href": "Dummy Page"
+    }
+  }
+}
